@@ -1,5 +1,9 @@
 # 2b IMPLEMENTATION OF SLIDING WINDOW PROTOCOL
+## DEVELOPED BY : NITHYA D
+## REG.NO : 212223240110
+
 ## AIM :
+To write a python program for sliding window protocol.
 ## ALGORITHM :
 1. Start the program.
 2. Get the frame size from the user.
@@ -10,6 +14,9 @@
 ## PROGRAM :
 ### CLIENT :
 ```
+Developed by : NITHYA D
+Reg.no : 212223240110
+
 import socket
 s=socket.socket()
 s.bind(('localhost',8000)) 
@@ -31,6 +38,9 @@ while True:
 ```
 ### SERVER :
 ```
+Developed by : NITHYA D
+Reg.no : 212223240110
+
 import socket
 s=socket.socket()
 s.connect(('localhost', 8000))
